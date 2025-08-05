@@ -1,0 +1,10 @@
+[package]
+name = "rust2d"
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[dependencies]
+minifb = "0.28.0"
